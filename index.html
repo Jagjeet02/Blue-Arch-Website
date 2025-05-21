@@ -14,7 +14,7 @@
   <body>
     <div class="container">
       <nav class="nav_bar">
-        <div class="logo">BLUE ARCH</div>
+        <div class="logo"><img src="Content/logo.png" alt=""></div>
         <div class="menu_bar">
           <ul>
             <li><a href="#Hero_Section">HOME</a></li>
@@ -32,24 +32,66 @@
         </div>
       </nav>
 
+      <!-- Enhanced Hero Section with Carousel -->
       <section id="Hero_Section">
-        <div class="main">
-          <div class="overlay"></div>
-          <div class="hero-content">
-            <h1 class="heading">Blue Arch Interior Design</h1>
-            <p class="para">Be Bold. Design Your Life.</p>
-            <div class="hero-buttons">
-              <a href="#projects" class="btn-primary">View Our Work</a>
-              <a href="#contact" class="btn-secondary">Book Consultation</a>
+        <div class="hero-carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+              <div class="hero-content">
+                <h1 class="heading">Blue Arch Interior Design</h1>
+                <p class="para">Be Bold. Design Your Life.</p>
+                <div class="hero-buttons">
+                  <a href="#projects" class="btn-primary">View Our Work</a>
+                  <a href="#contact" class="btn-secondary">Book Consultation</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+              <div class="hero-content">
+                <h1 class="heading">Transform Your Space</h1>
+                <p class="para">Premium interior design solutions</p>
+                <div class="hero-buttons">
+                  <a href="#services" class="btn-primary">Our Services</a>
+                  <a href="#contact" class="btn-secondary">Get Started</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+              <div class="hero-content">
+                <h1 class="heading">15+ Years of Excellence</h1>
+                <p class="para">Trusted by hundreds of clients</p>
+                <div class="hero-buttons">
+                  <a href="#about" class="btn-primary">About Us</a>
+                  <a href="#contact" class="btn-secondary">Contact Now</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="scroll-indicator">
+          
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <!-- <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button> -->
+            <!-- <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div> -->
+            <!-- <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button> -->
+          </div>
+        </div>
+        <div class="scroll-indicator">
             <span></span>
             <span></span>
             <span></span>
           </div>
-        </div>
       </section>
+          
+        
 
       <!-- ----------------------------------------  ABOUT SECTION--------------------------------------------------- -->
       <section id="about" class="about">
@@ -555,11 +597,13 @@
     <script src="script.js"></script>
     <!-- WhatsApp Float -->
     <a
-      href="https://wa.me/917888346624?text=Hello%20Aniket%2C%20I%20want%20to%20know%20more%20about%20your%20services."
-      class="whatsapp-float"
-      target="_blank"
-    >
-      <i class="fab fa-whatsapp"></i>
-    </a>
+  href="https://wa.me/8360170678?text=Hello%20Aniket%2C%20I%20want%20to%20know%20more%20about%20your%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat with Aniket on WhatsApp"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
   </body>
 </html>
